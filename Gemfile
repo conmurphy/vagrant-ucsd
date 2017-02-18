@@ -5,5 +5,5 @@ group :development do
 end
 
 group :plugins do
-  gem "vagrant-cloudcenter-0.1.0.gem", path: "."
+  gem "vagrant-ucsd-0.1.0.gem", path: "."
 end
