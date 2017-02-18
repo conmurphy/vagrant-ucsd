@@ -4,7 +4,7 @@ This is a Vagrant plugin that adds a Cisco UCS Director provider to Vagrant. It 
 
 This plugin is currently a Proof of Concept and has been developed and tested against Cisco UCS Director 6.0 and Vagrant 1.2+
 
-![alt tag]()
+![alt tag](https://github.com/conmurphy/vagrant-ucsd/blob/master/images/overview.png)
 
 Table of Contents
 =================
