@@ -1,0 +1,19 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+	config.vm.box = 'ucsd'
+ 
+	config.vm.provider :ucsd do |ucsd|
+		ucsd.vdc = 'ucsd_vdc'
+		ucsd.username = 'username'
+		ucsd.vm_name = 'vm_name'
+		ucsd.access_key = 'my_access_key'
+		ucsd.host_ip = 'ucsd_host_ip_address'
+		ucsd.catalog_item = 'ucsd_catalog_item.json'
+	end
+  
+  	config.vm.synced_folder '.', '/opt/my_files/', type: 'rsync'
+
+end
